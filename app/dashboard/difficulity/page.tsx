@@ -197,6 +197,7 @@ export default function AdminPanel() {
         }
     }
 
+    console.log(categories)
     const handleCategoryFileUpload = async (file: File) => {
         try {
             setCategoryFileUploading(true)

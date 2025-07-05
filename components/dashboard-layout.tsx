@@ -34,7 +34,6 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
   const router = useRouter()
 
   useEffect(() => {
-    // Check if user is authenticated
     if (!isLoading && !user) {
       router.push("/login")
     }
